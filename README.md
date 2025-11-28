@@ -50,6 +50,7 @@ Korisnik može unositi jela, definisati njihovu recepturu sa sastojcima, jedinic
 ---
 
 ## Napomena
+- Aplikacija malo baguje zbog slajdera ali se nadam da ćete imati strpljenja
 - Preporučuje se korišćenje modernog browser-a (Chrome, Edge, Firefox) za najbolji prikaz tabele i animacija.  
 - Svi podaci se čuvaju u MySQL bazi `restoran`.
 
