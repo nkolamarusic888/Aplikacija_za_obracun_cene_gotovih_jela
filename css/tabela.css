@@ -1,0 +1,74 @@
+
+table {
+    margin-bottom:5%;
+    margin-left:10%;
+    width:80%;
+    border-collapse:collapse;
+    margin-top:15px;
+    background-color:black;
+}
+th,td {
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+    transition: all .3s ease;
+}
+th { 
+    background:#007bff;
+    color:white;
+ }
+tr:hover {
+    background:#e8f0fe;
+    transform:scale(1.01);
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+ }
+input, select {
+    width:100%;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #bbb; transition:0.3s;
+ }
+input:focus, select:focus {
+    border-color:#007bff; 
+    box-shadow:0 0 5px rgba(0,123,255,0.5);
+}
+button { 
+    padding:6px 12px; border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+ }
+.btn-edit { 
+    background:#007bff;
+    color:white;
+ }
+.btn-edit:hover {
+    background:#0056b3;
+ }
+.btn-cancel {
+    background:#777;
+    color:white;
+ }
+.btn-cancel:hover {
+    background:#555;
+ }
+.btn-delete {
+    background:#ff4444;
+    color:white;
+ }
+.btn-delete:hover {
+    background:#cc0000;
+ }
+#add-row {
+    background:#28a745;
+    color:white;
+    margin-top:10px;
+ }
+#add-row:hover {
+    background:#1d7c30;
+ }
+.total {
+    font-weight:bold;
+    margin-top:10px;
+    font-size:16px;
+ }

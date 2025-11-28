@@ -1,0 +1,59 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body {
+    width: 90%;
+    font-family: "Courier New", monospace;
+    font-size: 32px;
+    margin: 20mm;
+    padding: 0;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.receipt-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #000;
+}
+
+.line {
+    border-bottom: 2px dashed #000;
+    margin: 15px 0;
+}
+
+small {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+@media print {
+    .navbar,
+    footer,
+    #dugmence,
+    .dugme,
+    .nav-links {
+        display: none !important;
+    }
+
+    body {
+        margin: 0;
+        padding: 15mm;
+    }
+
+    @page {
+        margin: 0;
+    }
+}
